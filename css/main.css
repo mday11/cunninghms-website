@@ -1,0 +1,229 @@
+html,
+body {
+	height: 100%;
+	margin: 0;
+}
+
+img,
+embed,
+video,
+object {
+	max-width: 100%;
+	height: auto;
+}
+
+
+.hero {
+	padding: 10px 0;
+	background-color: #fff;
+}
+
+.top-links{
+	font-family: bernhard gothic urw;
+	font-size: 20px;
+	font-weight: Light;
+	color: #000;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:right;
+}
+
+
+
+.top-links li{
+    
+}
+
+.top-links a:link,
+.top-links a:visited,
+.top-links a:active {
+	text-decoration: none;
+	color: #000;
+}
+
+.top-links a:hover {
+
+}
+
+
+.email {
+	width: 48%
+	font-family: myriad pro;
+	font-weight: bold; 
+	text-align: center;
+	padding-top: 20px;
+	height: 90%; 
+	color: #000;
+	background: url('../img/dining-area.jpg') center center no-repeat;
+	background-size: cover;
+}
+
+
+@media (min-width: 30em) {
+	.hero {
+		position: fixed;
+		z-index: 10;
+		width: 100%;
+	}
+}
+
+
+.hero-banner {
+	background: #fff; 
+}
+
+
+h1 {
+	font-family: myriad pro;
+	font-size: 40px;
+}
+.subtitle {
+	font-family: bernhard gothic urw;
+	font-size: 36px;
+	font-weight: light;
+}
+
+.email {
+	font-family: myriad pro;
+	font-weight: bold; 
+}
+
+.email-title {
+	font: Myriad pro;
+	font-weight: regular;
+	font-size: 30px;
+}
+
+.email-submit {
+	background: #6BAEAA;
+	color: #fff;
+}
+
+.section {
+	font-family: bernhard gothic urw;
+
+}
+
+
+h2 {
+	font-size: 50px;
+}
+
+.section-title {
+	position: relative;
+	height: 0;
+	padding-top: 50%;
+	background: transparent url('../img/bg-section-title.png') center center no-repeat;
+/* 
+	the above is shorthand for all of these
+	background-color: transparent;
+	background-image: url('../img/border-teal.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+ */
+	background-size: cover;
+}
+
+.section-title-text {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	transform: translateY(-50%); /* pulls the element up 50% of its height */
+}
+
+.about{
+	background: #E9F5F5;
+	font-family: bernhard gothic urw;
+	font-size: 40px;
+	padding-top: 50px;
+	
+}
+
+.left-section{
+	padding-top: 50px;
+}
+
+.about-info {
+	font: bernhard gothic urw;
+	font-weight: extra light;
+	font-size: 24px;
+	padding-top: 20px;
+}
+
+.about-vision {
+	padding-top: 10px;
+}
+
+.about-team-staff {
+	font-size: 30px;
+	color: #81aca9
+}
+.about-team-title {
+	font-size: 30px;
+}
+
+.about-team-info {
+	font-size: 24px;
+}
+
+.menu {
+	background: #CDDBDB;	
+}
+
+	
+.menu-items {
+	margin-left: 0;
+	list-style: none;
+}
+
+
+.menu-item + .menu-item {
+	margin-top: 15px;
+}
+
+.menu-item-title {
+	font-size: 25px;
+	font-weight: light;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	color: #72b1ad;
+}
+
+.menu-item-desc,
+.menu-item-pairing{
+	margin: 0;
+	font-style: italic;
+	text-transform: lowercase;
+}
+	
+.menu-item-desc {
+	font-size: 24px;
+	font-family: bernhard gothic urw;
+	font-weight: extra light;
+}
+
+.menu-item-pairing {
+	font: Myriad Pro
+	font-size: 24px;
+	Font-weight: condensed italic;
+	color: #000;
+}
+
+.pairing-type {
+	font-style: normal;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+}
+
+.sources {
+	background: #C0C7C7;
+	padding-top: 50px;
+}
+
+.sources-section-info{
+	font-size: 25px;
+	padding-top: 20px;
+}
